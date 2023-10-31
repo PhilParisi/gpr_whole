@@ -1,0 +1,8 @@
+prefix=/home/parisi/Desktop/catkin_ws/install
+
+Name: multibeam_process_online
+Description: Description of multibeam_process_online
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmultibeam_process_online
+Requires: roscpp std_msgs laser_geometry pcl_conversions pcl_ros visualization_msgs sensor_msgs nav_msgs tf2 tf2_ros tf2_msgs tf2_sensor_msgs grid_map_core grid_map_ros grid_map_cv grid_map_filters grid_map_loader grid_map_msgs grid_map_octomap grid_map_rviz_plugin grid_map_visualization

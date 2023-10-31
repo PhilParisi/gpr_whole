@@ -1,0 +1,12 @@
+##
+## gridmap config
+##
+cloud_topics: ["/wassp/detections"]
+viz_period: 5.0 #s
+
+map:
+    res: 0.5
+    filename: "/home/kris/temp/octomap_test.bt"
+    frame_id: "utm_local"
+    write_period: 10.0 #s
+    output_pointcloud: "/home/kris/temp/octomap_pointcloud.pcd"

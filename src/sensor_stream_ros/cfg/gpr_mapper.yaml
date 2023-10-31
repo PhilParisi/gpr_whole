@@ -1,0 +1,11 @@
+cloud_topic:      "detections"
+map_frame:        "map"
+swath_divisions:  4
+viz_rate:         10    #sec
+tile:
+  x_dim:           6.0 #m
+  x_margin:        3.0  #m
+  # if y_dim and y_margin are not specified they will be set the same as x
+
+block:
+  size:           800   #points

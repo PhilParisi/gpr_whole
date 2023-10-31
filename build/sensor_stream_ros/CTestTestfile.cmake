@@ -1,0 +1,11 @@
+# CMake generated Testfile for 
+# Source directory: /home/parisi/Desktop/catkin_ws/src/sensor_stream_ros
+# Build directory: /home/parisi/Desktop/catkin_ws/build/sensor_stream_ros
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_sensor_stream_ros_gtest_cudamat_operations_tests "/home/parisi/Desktop/catkin_ws/build/catkin_generated/env_cached.sh" "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/home/parisi/Desktop/catkin_ws/build/test_results/sensor_stream_ros/gtest-cudamat_operations_tests.xml" "--return-code" "/home/parisi/Desktop/catkin_ws/devel/lib/sensor_stream_ros/cudamat_operations_tests --gtest_output=xml:/home/parisi/Desktop/catkin_ws/build/test_results/sensor_stream_ros/gtest-cudamat_operations_tests.xml")
+set_tests_properties(_ctest_sensor_stream_ros_gtest_cudamat_operations_tests PROPERTIES  _BACKTRACE_TRIPLES "/opt/ros/noetic/share/catkin/cmake/test/tests.cmake;160;add_test;/opt/ros/noetic/share/catkin/cmake/test/gtest.cmake;98;catkin_run_tests_target;/opt/ros/noetic/share/catkin/cmake/test/gtest.cmake;37;_catkin_add_google_test;/home/parisi/Desktop/catkin_ws/src/sensor_stream_ros/CMakeLists.txt;189;catkin_add_gtest;/home/parisi/Desktop/catkin_ws/src/sensor_stream_ros/CMakeLists.txt;0;")
+add_test(_ctest_sensor_stream_ros_gtest_cudamat_tests "/home/parisi/Desktop/catkin_ws/build/catkin_generated/env_cached.sh" "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/home/parisi/Desktop/catkin_ws/build/test_results/sensor_stream_ros/gtest-cudamat_tests.xml" "--return-code" "/home/parisi/Desktop/catkin_ws/devel/lib/sensor_stream_ros/cudamat_tests --gtest_output=xml:/home/parisi/Desktop/catkin_ws/build/test_results/sensor_stream_ros/gtest-cudamat_tests.xml")
+set_tests_properties(_ctest_sensor_stream_ros_gtest_cudamat_tests PROPERTIES  _BACKTRACE_TRIPLES "/opt/ros/noetic/share/catkin/cmake/test/tests.cmake;160;add_test;/opt/ros/noetic/share/catkin/cmake/test/gtest.cmake;98;catkin_run_tests_target;/opt/ros/noetic/share/catkin/cmake/test/gtest.cmake;37;_catkin_add_google_test;/home/parisi/Desktop/catkin_ws/src/sensor_stream_ros/CMakeLists.txt;189;catkin_add_gtest;/home/parisi/Desktop/catkin_ws/src/sensor_stream_ros/CMakeLists.txt;0;")
+subdirs("sensor_stream")

@@ -1,0 +1,6 @@
+build/
+qt_build/
+*.user*
+doc/html/
+doc/latex/
+*.autosave

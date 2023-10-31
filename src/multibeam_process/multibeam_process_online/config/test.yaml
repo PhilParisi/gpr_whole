@@ -1,0 +1,14 @@
+##
+## gridmap config
+##
+cloud_topics: ["/wassp/detections"]
+viz_rate: 5.0 #s
+
+map:
+    res: 1.0
+    len_x: 2000.0  # m  :: if no len_y is specified len_y=len_x
+    center_x: 0
+    center_y: 0
+    filename: ""
+    frame_id: "utm_local"
+    write_period: 60.0 #s

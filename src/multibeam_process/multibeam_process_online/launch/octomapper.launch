@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<launch>
+    <node name="octomapper_node"
+        pkg="multibeam_process_online"
+        type="octomapper_node" output="screen">
+        <rosparam command="load" file="$(find multibeam_process_online)/config/octomap.yaml" />
+    </node>
+</launch>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<launch>
+    <rosparam command="load" file="$(find sensor_stream_ros)/cfg/gpr_mapper_pos.yaml" />
+    <!--<group ns="viz">-->
+        <node name="gpr_mapper_node"
+            pkg="sensor_stream_ros"
+            type="gpr_mapper_node" output="screen">
+        </node>
+<!--    </group>-->
+</launch>

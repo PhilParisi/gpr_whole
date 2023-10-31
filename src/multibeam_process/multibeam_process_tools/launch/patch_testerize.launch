@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<launch>
+    <node pkg="multibeam_process_tools" type="patch_tester" name="patch_tester" output="screen" />
+    <node
+      name="rviz"
+      pkg="rviz"
+      type="rviz"
+      args="-d $(find multibeam_process_tools)/config/patch_test.rviz" />
+</launch>

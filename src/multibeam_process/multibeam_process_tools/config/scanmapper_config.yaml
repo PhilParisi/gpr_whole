@@ -1,0 +1,3 @@
+map_res: .4                 # resolution of the map (m)
+map_viz_rate: 1             # how often to publish the map (sec) 0 for don't publish
+scan_topic: /multibeam/scan # the topic of your input scan

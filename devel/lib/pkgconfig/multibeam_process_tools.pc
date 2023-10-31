@@ -1,0 +1,8 @@
+prefix=/home/parisi/Desktop/catkin_ws/devel
+
+Name: multibeam_process_tools
+Description: Description of multibeam_process_tools
+Version: 0.0.0
+Cflags: -I/home/parisi/Desktop/catkin_ws/src/multibeam_process/multibeam_process_tools/include
+Libs: -L${prefix}/lib -lmultibeam_process_tools
+Requires: roscpp laser_geometry pcl_conversions pcl_ros visualization_msgs tf2 tf2_ros tf2_msgs tf2_sensor_msgs sensor_msgs nav_msgs

@@ -1,0 +1,11 @@
+cloud_topic:      "wassp/detections"
+map_frame:        "utm_local"
+swath_divisions:  6
+viz_rate:         10    #sec
+tile:
+  x_dim:           8 #m
+  x_margin:        3  #m
+  # if y_dim and y_margin are not specified they will be set the same as x
+
+block:
+  size:           400   #points

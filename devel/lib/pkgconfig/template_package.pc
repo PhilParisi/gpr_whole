@@ -1,0 +1,8 @@
+prefix=/home/parisi/Desktop/catkin_ws/devel
+
+Name: template_package
+Description: Description of template_package
+Version: 0.0.0
+Cflags: -I/home/parisi/Desktop/catkin_ws/src/template_package/template_package/include
+Libs: -L${prefix}/lib -ltemplate_package
+Requires: template_package_msgs roscpp std_msgs

@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<launch>
+  <node name="bpslam_node" pkg="sensor_stream_ros" type="bpslam_bag_gui" output="screen">
+  </node>
+
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find sensor_stream_ros)/config/bpslam.rviz" output="screen"/>
+</launch>

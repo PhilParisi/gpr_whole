@@ -1,0 +1,8 @@
+prefix=/home/parisi/Desktop/catkin_ws/install
+
+Name: sensor_stream_ros
+Description: Description of sensor_stream_ros
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsensor_stream_ros
+Requires: roscpp pcl_conversions pcl_ros visualization_msgs tf2_sensor_msgs sensor_msgs nav_msgs

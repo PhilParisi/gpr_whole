@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="1" disabled="0" errors="0" time="0.002" timestamp="2022-02-08T13:25:31" name="AllTests">
+  <testsuite name="TestSuite" tests="2" failures="1" disabled="0" errors="0" time="0.002" timestamp="2022-02-08T13:25:31">
+    <testcase name="testCase1" status="run" result="completed" time="0.001" timestamp="2022-02-08T13:25:31" classname="TestSuite" />
+    <testcase name="testCase2" status="run" result="completed" time="0.001" timestamp="2022-02-08T13:25:31" classname="TestSuite">
+      <failure message="/home/parisi/Desktop/catkin_ws/src/template_package/template_package/test/other_test.cpp:17&#x0A;Expected equality of these values:&#x0A;  2&#x0A;  test_class.returnTwo()&#x0A;    Which is: 1" type=""><![CDATA[/home/parisi/Desktop/catkin_ws/src/template_package/template_package/test/other_test.cpp:17
+Expected equality of these values:
+  2
+  test_class.returnTwo()
+    Which is: 1]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

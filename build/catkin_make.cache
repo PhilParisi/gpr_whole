@@ -1,0 +1,2 @@
+multibeam_process/multibeam_process_core:multibeam_process/multibeam_process_online:multibeam_process/multibeam_process_tools:sensor_stream_ros:template_package/template_package:template_package/template_package_msgs
+-G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/parisi/Desktop/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/parisi/Desktop/catkin_ws/install

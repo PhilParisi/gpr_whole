@@ -1,0 +1,8 @@
+prefix=/home/parisi/Desktop/catkin_ws/install
+
+Name: multibeam_process_core
+Description: Description of multibeam_process_core
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmultibeam_process_core
+Requires: roscpp std_msgs pcl_ros sensor_msgs nav_msgs tf2 tf2_ros tf2_msgs tf2_sensor_msgs tf2_geometry_msgs urdf nodelet

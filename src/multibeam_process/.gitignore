@@ -1,0 +1,4 @@
+doc/html/*
+doc/latex/*
+
+multibeam_process_tools/CMakeLists\.txt\.autosave
